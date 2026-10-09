@@ -1,103 +1,577 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WMA Engenharia | AI-Powered Lean Construction</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f7f6;
-            color: #333;
-            line-height: 1.6;
-        }
-        header {
-            background-color: #2c3e50;
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        header p {
-            font-size: 1.2rem;
-            margin-top: 10px;
-            opacity: 0.8;
-        }
-        .container {
-            max-width: 900px;
-            margin: 2rem auto;
-            padding: 0 20px;
-        }
-        .section {
-            background: white;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-        }
-        h2 {
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
-        }
-        .contact-btn {
-            display: inline-block;
-            background: #3498db;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            margin-top: 15px;
-        }
-        .contact-btn:hover {
-            background: #2980b9;
-        }
-        footer {
-            text-align: center;
-            padding: 2rem 0;
-            font-size: 0.9rem;
-            color: #777;
-        }
-    </style>
-</head>
-<body>
 
-    <header>
-        <h1>WMA Engenharia</h1>
-        <p>Transforming Residential Construction with Lean Methodology & Applied AI</p>
-    </header>
-
-    <div class="container">
-        
-        <div class="section">
-            <h2>About Us</h2>
-            <p>Founded in 2023, WMA Engenharia is an innovative engineering and construction firm based in Brazil. We specialize in mid-to-high-end residential projects, integrating traditional expertise with cutting-edge technology.</p>
-        </div>
-
-        <div class="section">
-            <h2>Our Innovation: The AI App</h2>
-            <p>We are currently developing a proprietary mobile application powered by Advanced Large Language Models (LLMs) to digitalize and optimize the <strong>Lean Construction</strong> framework.</p>
-            <p>Our upcoming platform replaces manual, spreadsheet-based management by processing unstructured field reports into actionable insights, dynamic schedule adjustments, and transparent progress summaries for our clients.</p>
-        </div>
-
-        <div class="section">
-            <h2>Contact</h2>
-            <p>Are you interested in our projects or partnership opportunities?</p>
-            <a href="mailto:wenderma@wma.ia.br" class="contact-btn">Email our Founder</a>
-        </div>
-
-    </div>
-
-    <footer>
-        <p>&copy; 2024 WMA Engenharia. All rights reserved.</p>
-        <p>Aparecida de Goiânia, GO - Brazil</p>
-    </footer>
-
-</body>
-</html>
+<html class="dark" lang="pt-BR"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>WMA Engenharia | Construtech &amp; Engenharia Inteligente</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "outline-variant": "#3b494c", "on-tertiary": "#3c2f00", "secondary-fixed": "#c4e7ff", "on-tertiary-container": "#6d5600", "inverse-surface": "#dee2ee", "on-primary-container": "#00626e", "on-secondary-fixed-variant": "#004c69", "surface": "#0f141c", "surface-container-high": "#252a33", "on-tertiary-fixed-variant": "#574500", "on-error-container": "#ffdad6", "surface-container-lowest": "#090e16", "tertiary-container": "#f4cd52", "outline": "#849396", "on-secondary-fixed": "#001e2c", "on-surface": "#dee2ee", "primary-fixed": "#9cf0ff", "surface-variant": "#30353e", "primary-container": "#00e5ff", "surface-container-low": "#171c24", "tertiary-fixed": "#ffe088", "secondary-container": "#00a6e0", "tertiary-fixed-dim": "#e9c349", "on-error": "#690005", "secondary-fixed-dim": "#7bd0ff", "background": "#0f141c", "error": "#ffb4ab", "on-primary-fixed": "#001f24", "primary": "#c3f5ff", "inverse-on-surface": "#2c3139", "secondary": "#7bd0ff", "surface-container-highest": "#30353e", "on-primary-fixed-variant": "#004f58", "surface-tint": "#00daf3", "error-container": "#93000a", "on-surface-variant": "#bac9cc", "on-secondary-container": "#00374d", "on-primary": "#00363d", "surface-dim": "#0f141c", "surface-container": "#1b2028", "tertiary": "#ffecbb", "on-tertiary-fixed": "#241a00", "on-secondary": "#00354a", "on-background": "#dee2ee", "inverse-primary": "#006875", "surface-bright": "#343942", "primary-fixed-dim": "#00daf3" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-xl": "2.5rem", "space-md": "1rem", "margin": "3rem", "space-xs": "0.25rem", "gutter-mobile": "1rem", "margin-mobile": "1.25rem", "space-lg": "1.5rem", "space-sm": "0.5rem", "gutter": "1.5rem" }, "fontFamily": { "headline-xl": [ "Space Grotesk" ], "headline-md": [ "Space Grotesk" ], "label-sm": [ "JetBrains Mono" ], "headline-xl-mobile": [ "Space Grotesk" ], "headline-lg-mobile": [ "Space Grotesk" ], "body-sm": [ "Plus Jakarta Sans" ], "headline-lg": [ "Space Grotesk" ], "label-md": [ "JetBrains Mono" ], "body-lg": [ "Plus Jakarta Sans" ], "headline-sm": [ "Space Grotesk" ], "body-md": [ "Plus Jakarta Sans" ] }, "fontSize": { "headline-xl": [ "48px", { "lineHeight": "56px", "letterSpacing": "-0.03em", "fontWeight": "600" } ], "headline-md": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "500" } ], "label-sm": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "500" } ], "headline-xl-mobile": [ "34px", { "lineHeight": "42px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "500" } ], "body-sm": [ "13px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "400" } ], "headline-lg": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "500" } ], "label-md": [ "13px", { "lineHeight": "18px", "letterSpacing": "0.04em", "fontWeight": "500" } ], "body-lg": [ "18px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "400" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "500" } ], "body-md": [ "15px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="WMA Engenharia Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WDEJkb0K0JapknLd0qHmnM0wV8WxDRAUG3aZ_kIWAksfQdtGNOjmmGbfA0IANSsZAMQ__XfgOxDyRICg-kLSsIbvAM3_DCEqmBaRQwi9tq4BLJDrBQPbDysfFoRhyNJSUdODxCPivIETzaHliDPNPXwWmXbzqD8FDEUvZU8ZtcI2Lyd7Nf4kAQGSeUNbEaScmQj27MCdQu-5ZPPbYHNi1oh9sRsMLZawieLdGVrTkveudDyBau9Pd1Dg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm uppercase tracking-tight text-on-surface leading-none">WMA</span><span class="font-label-sm text-label-sm tracking-wider uppercase text-primary leading-none">Engenharia</span></div></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary-container font-semibold"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="inovacao-ia" href="#">Inovação &amp; IA</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="sobre-nos" href="#">Sobre Nós</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="solucoes-construtivas" href="#">Soluções Construtivas</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="projetos" href="#">Projetos</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="contato" href="#">Contato</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center font-label-md text-label-md uppercase px-space-md py-space-sm text-on-surface-variant hover:text-primary transition-colors" data-path="portal-do-cliente" href="#">Portal do Cliente</a><a class="inline-flex items-center justify-center font-headline-sm text-body-sm px-space-md py-space-sm bg-primary-container text-on-primary font-semibold rounded shadow-[0_0_20px_-2px_rgba(0,229,255,0.4)] hover:shadow-[0_0_28px_2px_rgba(0,229,255,0.65)] hover:bg-primary-fixed-dim transition-all" data-path="agendar-demonstracao" href="#">Agendar Demonstração</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background relative min-h-screen"><div class="flex flex-col w-full text-on-surface">
+<!-- ========================================== -->
+<!-- HERO SECTION                               -->
+<!-- ========================================== -->
+<section class="relative w-full pt-space-lg pb-space-xl overflow-hidden bg-surface-container-lowest">
+<!-- Ambient isometric blueprint grid backdrop -->
+<div class="absolute inset-0 pointer-events-none opacity-20">
+<svg class="w-full h-full" height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<pattern height="48" id="blueprint-grid" patternunits="userSpaceOnUse" width="48">
+<path d="M 48 0 L 0 0 0 48" fill="none" opacity="0.4" stroke="#38BDF8" stroke-width="0.5"></path>
+<circle cx="0" cy="0" fill="#00E5FF" opacity="0.6" r="1"></circle>
+</pattern>
+</defs>
+<rect fill="url(#blueprint-grid)" height="100%" width="100%"></rect>
+</svg>
+</div>
+<!-- Neon ambient radial gradient -->
+<div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[720px] h-[380px] bg-primary-container/10 blur-[130px] rounded-full pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10 flex flex-col gap-space-lg">
+<!-- Top Eyebrow Badge -->
+<div class="flex items-center gap-space-sm self-start bg-surface-container-high/90 backdrop-blur-md px-4 py-1.5 rounded-full shadow-[0_0_20px_-4px_rgba(0,229,255,0.25)]">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-ping"></span>
+<span class="w-2 h-2 rounded-full bg-primary-container -ml-3.5"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">
+          PLATAFORMA INTELIGENTE DE ENGENHARIA RESIDENCIAL • LEAN 4.0
+        </span>
+</div>
+<!-- Main Title & Lead Statement -->
+<div class="max-w-4xl flex flex-col gap-space-sm">
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight leading-none">
+          A Precisão da <span class="text-primary-container bg-gradient-to-r from-primary-container via-secondary to-primary-fixed bg-clip-text text-transparent drop-shadow-[0_0_24px_rgba(0,229,255,0.4)]">Inteligência Artificial</span> na Engenharia de Alto Padrão
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl leading-relaxed">
+          A WMA Engenharia converge a metodologia Lean Construction com modelos preditivos de IA para eliminar desperdícios, blindar cronogramas e entregar obras residenciais de altíssimo luxo com maestria milimétrica.
+        </p>
+</div>
+<!-- CTA Buttons -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center gap-2 font-headline-sm text-body-md px-6 py-3.5 bg-primary-container text-on-primary font-semibold rounded shadow-[0_0_28px_0_rgba(0,229,255,0.45)] hover:shadow-[0_0_36px_6px_rgba(0,229,255,0.65)] hover:bg-primary-fixed-dim transition-all" href="#diagnostico">
+<span>Solicitar Apresentação Técnica</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-2 font-headline-sm text-body-md px-6 py-3.5 bg-surface-container-high/80 text-on-surface font-medium rounded hover:bg-surface-variant hover:text-primary transition-all" href="#solucoes">
+<span class="material-symbols-outlined text-[18px] text-primary">view_in_ar</span>
+<span>Ver Obras &amp; Casos</span>
+</a>
+</div>
+<!-- Key Metrics Ribbon -->
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-space-sm pt-space-sm">
+<div class="bg-surface-container-low/90 backdrop-blur-md p-space-md rounded flex flex-col gap-1 shadow-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary uppercase">Métricas Preditivas</span>
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+</div>
+<span class="font-headline-lg text-headline-lg text-primary-container font-bold leading-tight">0%</span>
+<span class="font-headline-sm text-headline-sm text-on-surface leading-snug">Atraso Crítico</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Algoritmos preditivos de caminho crítico e last planner</p>
+</div>
+<div class="bg-surface-container-low/90 backdrop-blur-md p-space-md rounded flex flex-col gap-1 shadow-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary uppercase">Eficiência Lean</span>
+<span class="material-symbols-outlined text-secondary text-[18px]">trending_down</span>
+</div>
+<span class="font-headline-lg text-headline-lg text-secondary font-bold leading-tight">-28%</span>
+<span class="font-headline-sm text-headline-sm text-on-surface leading-snug">Desperdício Material</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Lean supply tracking automatizado em tempo real</p>
+</div>
+<div class="bg-surface-container-low/90 backdrop-blur-md p-space-md rounded flex flex-col gap-1 shadow-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-tertiary uppercase">Governança</span>
+<span class="material-symbols-outlined text-tertiary-container text-[18px]">visibility</span>
+</div>
+<span class="font-headline-lg text-headline-lg text-tertiary-container font-bold leading-tight">100%</span>
+<span class="font-headline-sm text-headline-sm text-on-surface leading-snug">Transparência</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Relatórios executivos e gêmeo digital contínuo 3D</p>
+</div>
+<div class="bg-surface-container-low/90 backdrop-blur-md p-space-md rounded flex flex-col gap-1 shadow-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary uppercase">Escala Realizada</span>
+<span class="material-symbols-outlined text-primary text-[18px]">diamond</span>
+</div>
+<span class="font-headline-lg text-headline-lg text-primary font-bold leading-tight">+R$ 180M</span>
+<span class="font-headline-sm text-headline-sm text-on-surface leading-snug">VGV Gerenciado</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Obras residenciais entregues com controle algorítmico</p>
+</div>
+</div>
+<!-- Hero Media Container with AR Structural Telemetry Overlay -->
+<div class="relative w-full rounded-lg overflow-hidden bg-surface-container-lowest mt-space-xs shadow-xl group">
+<div class="relative aspect-[16/9] lg:aspect-[21/9] w-full overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A modern architectural concrete villa at twilight with floor-to-ceiling glass, glowing interior lights, and an expansive infinity pool reflecting the sky. Floating cyan and electric blue holographic BIM wireframes and stress load telemetry data overlay the structure with sharp precision, showcasing high-end civil engineering and predictive artificial intelligence in construction." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7ataPatMqX7m1tYdEw9tvSRAiZQV4ClSFE4VyapcufhGwBEZKkLN1wSKGEhE7tBYhZ5GoUi7wGt-n3riNRVoIPW_hn-YuN6uEgp4UQbCStmi1NU9A2TDCJvTAA2ShfMgHAOOHnXSESPFqUIxcAD0a2Vioqh2quQmbywNDgHJL6DnAxjFBNV6GsddJg0ooiWIuTFMpOhkB9GVW6LEYuHb6CThBx1j5P2Tsj5ne5aQbDVH5ks2ZFPB3"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-surface-container-lowest/40"></div>
+<!-- Holographic Blueprint Grid Line Accent -->
+<div class="absolute inset-0 pointer-events-none bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary-container/15 via-transparent to-transparent"></div>
+</div>
+<!-- Live AR Telemetry Badge: Top Right -->
+<div class="absolute top-4 right-4 md:top-8 md:right-8 bg-surface-container-lowest/85 backdrop-blur-xl p-space-md rounded max-w-sm shadow-[0_0_24px_-4px_rgba(0,229,255,0.3)]">
+<div class="flex items-center justify-between pb-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">TELEMETRIA ESTRUTURAL AO VIVO</span>
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+</div>
+<div class="font-headline-sm text-headline-sm text-on-surface">Villa Alphaville • Bloco B</div>
+<div class="flex items-center gap-2 mt-2">
+<div class="flex-1 bg-surface-container-high h-2 rounded-full overflow-hidden">
+<div class="bg-primary-container h-full w-[99.4%] shadow-[0_0_10px_#00e5ff]"></div>
+</div>
+<span class="font-label-md text-label-md text-primary font-semibold">99.4% Conforme</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant font-label-sm text-label-sm mt-2">
+<span>Tensão de Carga: 34.2 kN/m²</span>
+<span class="text-secondary font-mono">BIM 5D Sync</span>
+</div>
+</div>
+<!-- Live Telemetry Badge: Bottom Left -->
+<div class="absolute bottom-4 left-4 md:bottom-8 md:left-8 bg-surface-container-lowest/85 backdrop-blur-xl p-space-md rounded max-w-md shadow-[0_0_24px_-4px_rgba(123,208,255,0.25)]">
+<div class="flex items-center gap-2 pb-1">
+<span class="material-symbols-outlined text-secondary text-[18px]">neurology</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">GÊMEO DIGITAL PREDITIVO</span>
+</div>
+<div class="font-headline-sm text-headline-sm text-on-surface">Cronograma Acelerado via Machine Learning</div>
+<div class="flex items-center gap-space-sm mt-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="flex items-center text-primary-container font-semibold">
+<span class="material-symbols-outlined text-[16px] mr-1">bolt</span> -14 Dias do Prazo Contratual
+            </span>
+<span>•</span>
+<span>Caminho Crítico Livre</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- ABOUT US / FILOSOFIA CONSTRUTIVA           -->
+<!-- ========================================== -->
+<section class="w-full py-space-xl bg-surface relative" id="sobre">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col gap-space-lg">
+<!-- Section Header -->
+<div class="flex flex-col gap-space-xs max-w-3xl">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">ENGENHARIA REINVENTADA</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+          Onde o Rigor Arquitetônico Encontra a Computação Cognitiva
+        </h2>
+</div>
+<!-- Asymmetric Two-Column Presentation -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Narrative Left Column -->
+<div class="lg:col-span-5 flex flex-col gap-space-md bg-surface-container-low p-space-lg rounded shadow-sm">
+<p class="font-body-lg text-body-lg text-on-surface leading-relaxed">
+            Fundada para preencher o abismo entre o design arquitetônico de alto luxo e a previsibilidade executiva no canteiro de obras, a WMA Engenharia opera na vanguarda da transformação construtiva.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Desenvolvemos um ecossistema proprietário que funde a filosofia <strong class="text-on-surface font-semibold">Lean Construction</strong> à Inteligência Artificial Generativa e Preditiva. Transformamos geometrias desafiadoras, materiais exóticos e restrições complexas em uma sinfonia orquestrada com tolerância milimétrica.
+          </p>
+<div class="p-space-md bg-surface-container-lowest rounded mt-2 flex flex-col gap-2 shadow-inner">
+<div class="flex items-center justify-between font-label-sm text-label-sm text-primary">
+<span class="uppercase">Índice de Certeza Construtiva</span>
+<span>ICW-98.7%</span>
+</div>
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="h-full bg-gradient-to-r from-secondary to-primary-container w-[98.7%]"></div>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+              Garantia de orçamento travado sem acréscimos imprevistos de escopo através de inteligência prescritiva.
+            </span>
+</div>
+<!-- Technical Specs Snippet -->
+<div class="grid grid-cols-2 gap-space-sm pt-2">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase font-mono">FRAMEWORK</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Last Planner 4.0</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase font-mono">NÍVEL BIM</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">LOD 400 &amp; 5D</span>
+</div>
+</div>
+</div>
+<!-- Interactive 3 Pillars Right Column -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<!-- Pillar 1 -->
+<div class="bg-surface-container-low/70 hover:bg-surface-container-high transition-all p-space-lg rounded shadow-sm hover:shadow-[0_0_24px_-4px_rgba(0,229,255,0.2)] flex flex-col sm:flex-row gap-space-md items-start">
+<div class="w-12 h-12 rounded bg-primary-container/10 flex items-center justify-center shrink-0 text-primary-container">
+<span class="material-symbols-outlined text-[28px]">precision_manufacturing</span>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="font-headline-md text-headline-md text-on-surface">Filosofia Lean Autêntica</span>
+<span class="font-label-sm text-label-sm text-primary uppercase font-mono">01 // FLUXO CONTÍNUO</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Eliminação sistemática de gargalos operacionais e desperdícios antes da mobilização do canteiro. Nossos lotes de produção Just-in-Time evitam estoques ociosos e preservam acabamentos delicados.
+              </p>
+</div>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface-container-low/70 hover:bg-surface-container-high transition-all p-space-lg rounded shadow-sm hover:shadow-[0_0_24px_-4px_rgba(123,208,255,0.2)] flex flex-col sm:flex-row gap-space-md items-start">
+<div class="w-12 h-12 rounded bg-secondary/10 flex items-center justify-center shrink-0 text-secondary">
+<span class="material-symbols-outlined text-[28px]">query_stats</span>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="font-headline-md text-headline-md text-on-surface">Modelagem Preditiva de Risco</span>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-mono">02 // ALGORITMOS PREDITIVOS</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Redes neurais calibradas com mais de 3.000 variáveis meteorológicas, logísticas de fornecedores de pedra nobre e prazos de serralheria artística para simular e anular impactos antes que eles aconteçam.
+              </p>
+</div>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface-container-low/70 hover:bg-surface-container-high transition-all p-space-lg rounded shadow-sm hover:shadow-[0_0_24px_-4px_rgba(244,205,82,0.2)] flex flex-col sm:flex-row gap-space-md items-start">
+<div class="w-12 h-12 rounded bg-tertiary-container/15 flex items-center justify-center shrink-0 text-tertiary-fixed-dim">
+<span class="material-symbols-outlined text-[28px]">architecture</span>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between">
+<span class="font-headline-md text-headline-md text-on-surface">Acabamento de Colecionador</span>
+<span class="font-label-sm text-label-sm text-tertiary uppercase font-mono">03 // ULTRA-LUXO</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                A tecnologia não substitui a sensibilidade artesanal: ela a potencializa. Aplicamos esquadrejamento a laser milimétrico para mármores translúcidos, painéis ripados e vidros monumentais sem emendas aparentes.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- FEATURES SECTION / CORE CAPABILITIES       -->
+<!-- ========================================== -->
+<section class="w-full py-space-xl bg-surface-container-lowest relative" id="solucoes">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col gap-space-xl">
+<!-- Section Heading -->
+<div class="flex flex-col gap-space-xs text-center items-center max-w-2xl mx-auto">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">TECNOLOGIA PROPRIETÁRIA</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+          Soluções Construtivas Potencializadas por IA
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Controle cirúrgico do projeto ao acabamento com automação inteligente e telemetria de campo em tempo real.
+        </p>
+</div>
+<!-- Feature Showcase 1: Field Reports -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center bg-surface-container-low p-space-lg lg:p-space-xl rounded shadow-md">
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-2 self-start px-3 py-1 bg-surface-container-high rounded text-primary font-label-sm text-label-sm uppercase">
+<span class="material-symbols-outlined text-[16px]">videocam</span>
+<span>VISÃO COMPUTACIONAL • IOT</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface">
+            Relatórios de Campo Autônomos (Field Reports)
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Captura automatizada no canteiro por drones e escaneamento a laser 3D LiDAR. A inteligência artificial detecta microdesvios entre a execução real e o gêmeo digital estrutural, identificando inconsistências em minutos, não semanas.
+          </p>
+<div class="flex flex-col gap-2 pt-2">
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span>Inspeção milimétrica de alinhamento estrutural e armações</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span>Análise termográfica automática de cura de lajes protendidas</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-primary-container text-[18px]">check_circle</span>
+<span>Checklists inteligentes integrados com certificação CREA</span>
+</div>
+</div>
+</div>
+<!-- Simulated Visual Widget 1: Field Audit Terminal -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-space-md lg:p-space-lg rounded shadow-inner flex flex-col gap-space-md">
+<div class="flex items-center justify-between font-mono pb-2 bg-surface-container-high/40 p-2 rounded">
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface">
+<span class="w-2.5 h-2.5 rounded-full bg-error"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary-container"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container"></span>
+<span class="text-on-surface-variant ml-2 font-mono">DRONE_MISSION_LOG // FLIGHT-892B</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold">99.8% ACURÁCIA</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div class="bg-surface-container-low p-space-md rounded flex flex-col gap-2">
+<div class="flex justify-between items-center text-on-surface-variant font-label-sm text-label-sm">
+<span>RADAR 3D LIDAR</span>
+<span class="text-primary-container font-mono">OK-100%</span>
+</div>
+<div class="font-headline-sm text-headline-sm text-on-surface">Viga Balanço Leste</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Desvio de prumo: 0.02 mm (Tolerância limite: 2.00 mm). Nenhuma correção requerida.</p>
+<div class="h-1 bg-surface-container-high rounded overflow-hidden">
+<div class="w-full bg-primary-container h-full"></div>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-md rounded flex flex-col gap-2">
+<div class="flex justify-between items-center text-on-surface-variant font-label-sm text-label-sm">
+<span>TERMOGRAFIA DE CONCRETO</span>
+<span class="text-tertiary font-mono">23.4°C ESTÁVEL</span>
+</div>
+<div class="font-headline-sm text-headline-sm text-on-surface">Cura de Fundação</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Gradiente térmico homogêneo verificado. Resistência projetada atingida em D+7.</p>
+<div class="h-1 bg-surface-container-high rounded overflow-hidden">
+<div class="w-[94%] bg-tertiary-container h-full"></div>
+</div>
+</div>
+</div>
+<!-- Micro Terminal Output -->
+<div class="bg-surface-container-high/80 p-3 rounded font-mono font-label-sm text-label-sm text-on-surface-variant flex flex-col gap-1">
+<div class="text-primary-container">&gt; IA_AGENT: Análise de nuvem de pontos concluída em 34.2 segundos.</div>
+<div>&gt; STATUS: 1.480 pontos inspecionados. 0 inconformidades críticas detectadas.</div>
+<div class="text-secondary">&gt; RELATÓRIO: Despachado para o Portal do Investidor com registro imutável.</div>
+</div>
+</div>
+</div>
+<!-- Feature Showcase 2: Smart Schedule Adjustment -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center bg-surface-container-low p-space-lg lg:p-space-xl rounded shadow-md">
+<!-- Simulated Gantt Widget Left -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-space-md lg:p-space-lg rounded shadow-inner flex flex-col gap-space-sm order-2 lg:order-1">
+<div class="flex items-center justify-between pb-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">tune</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Gantt Dinâmico • Last Planner AI</span>
+</div>
+<span class="bg-primary/10 text-primary px-2.5 py-0.5 rounded font-label-sm text-label-sm font-mono">AUTO-REBALANCED</span>
+</div>
+<!-- Interactive Gantt Rows -->
+<div class="flex flex-col gap-3 font-mono">
+<!-- Row 1 -->
+<div class="flex flex-col gap-1">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Frente A: Estrutura Metálica Pivotante</span>
+<span class="text-primary-container font-semibold">100% Concluído</span>
+</div>
+<div class="w-full bg-surface-container-high h-4 rounded overflow-hidden relative">
+<div class="bg-primary-container h-full w-full rounded"></div>
+</div>
+</div>
+<!-- Row 2 -->
+<div class="flex flex-col gap-1">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Frente B: Painéis de Vidro Minimalista (Itália)</span>
+<span class="text-secondary font-semibold">Buffer Otimizado (+4d)</span>
+</div>
+<div class="w-full bg-surface-container-high h-4 rounded overflow-hidden relative flex">
+<div class="bg-surface-container-high h-full w-[20%]"></div>
+<div class="bg-secondary h-full w-[65%] rounded shadow-[0_0_12px_#7bd0ff]"></div>
+</div>
+</div>
+<!-- Row 3 -->
+<div class="flex flex-col gap-1">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Frente C: Automação Residencial KNX &amp; DALI</span>
+<span class="text-tertiary-container font-semibold">Antecipação Preditiva</span>
+</div>
+<div class="w-full bg-surface-container-high h-4 rounded overflow-hidden relative flex">
+<div class="bg-surface-container-high h-full w-[60%]"></div>
+<div class="bg-tertiary-container h-full w-[35%] rounded"></div>
+</div>
+</div>
+</div>
+<!-- Scheduling AI Alert Card -->
+<div class="mt-2 p-space-sm bg-surface-container-high rounded flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[20px] shrink-0 mt-0.5">auto_fix_high</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Ajuste Autônomo de Contingência Meteorológica</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+                Previsão de precipitação detectada para quinta-feira. Frentes de impermeabilização externa foram reprogramadas para áreas internas sem gerar paradas de equipe.
+              </span>
+</div>
+</div>
+</div>
+<!-- Description Right -->
+<div class="lg:col-span-5 flex flex-col gap-space-md order-1 lg:order-2">
+<div class="inline-flex items-center gap-2 self-start px-3 py-1 bg-surface-container-high rounded text-secondary font-label-sm text-label-sm uppercase">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span>OTIMIZAÇÃO DINÂMICA DE FLUXO</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface">
+            Ajuste Inteligente de Cronograma
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Nossos algoritmos recalculam continuamente as prioridades do Last Planner System diante de qualquer oscilação de suprimentos ou intempérie climática, realocando operários especializados sem custos adicionais.
+          </p>
+<div class="flex flex-col gap-2 pt-2">
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+<span>Proteção blindada do caminho crítico executivo</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+<span>Simulação Monte Carlo com 10.000 cenários de risco</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+<span>Zero tempo ocioso entre etapas de acabamentos finos</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Feature Showcase 3: Executive Client Summaries -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center bg-surface-container-low p-space-lg lg:p-space-xl rounded shadow-md">
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-2 self-start px-3 py-1 bg-surface-container-high rounded text-tertiary-container font-label-sm text-label-sm uppercase">
+<span class="material-symbols-outlined text-[16px]">pie_chart</span>
+<span>TRANSPARÊNCIA TOTAL</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface">
+            Sumários Executivos para Clientes
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Painéis sintetizados e relatórios em linguagem executiva transparente para investidores, incorporadores e proprietários. Acompanhe a evolução financeira, desembolso por etapa e fotografias em ultra-resolução sem jargões desnecessários.
+          </p>
+<div class="flex flex-col gap-2 pt-2">
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-tertiary text-[18px]">analytics</span>
+<span>Painel do investidor acessível por app móvel seguro</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-tertiary text-[18px]">analytics</span>
+<span>Curva S físico-financeira com auditoria em tempo real</span>
+</div>
+<div class="flex items-center gap-2 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-tertiary text-[18px]">analytics</span>
+<span>Gravação de áudio-resumos semanais gerados pelo engenheiro-chefe</span>
+</div>
+</div>
+</div>
+<!-- Simulated Visual Widget 3: Executive Dashboard -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-space-md lg:p-space-lg rounded shadow-inner flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-container text-[20px]">account_balance_wallet</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Resumo de Desembolso • Residência Fasano</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline font-mono">FEV/2025</span>
+</div>
+<!-- Inline SVG Financial S-Curve Graph -->
+<div class="bg-surface-container-low p-space-md rounded flex flex-col gap-2">
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-on-surface-variant font-mono">CURVA S (PLANEJADO VS EXECUTADO)</span>
+<span class="text-primary-container font-mono">+1.8% EFICIÊNCIA ORÇAMENTÁRIA</span>
+</div>
+<svg class="w-full h-32" fill="none" viewbox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+<!-- Grid lines -->
+<line stroke="#3b494c" stroke-dasharray="4 4" stroke-width="0.75" x1="0" x2="400" y1="30" y2="30"></line>
+<line stroke="#3b494c" stroke-dasharray="4 4" stroke-width="0.75" x1="0" x2="400" y1="60" y2="60"></line>
+<line stroke="#3b494c" stroke-dasharray="4 4" stroke-width="0.75" x1="0" x2="400" y1="90" y2="90"></line>
+<!-- Planned Curve (Muted) -->
+<path d="M 0 110 Q 120 100 200 65 T 400 15" fill="none" stroke="#849396" stroke-dasharray="3 3" stroke-width="2"></path>
+<!-- Realized Curve (Neon Cyan) -->
+<path d="M 0 110 Q 120 105 200 55 T 400 10" fill="none" stroke="#00e5ff" stroke-width="3"></path>
+<!-- Highlight Point -->
+<circle cx="200" cy="55" fill="#00e5ff" r="5"></circle>
+<circle cx="200" cy="55" opacity="0.4" r="10" stroke="#00e5ff" stroke-width="1.5"></circle>
+</svg>
+<div class="flex justify-between items-center font-label-sm text-label-sm text-on-surface-variant pt-1">
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-0.5 bg-outline"></span>
+<span>Meta Contratual</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-1 bg-primary-container rounded"></span>
+<span class="text-primary">Executado com IA</span>
+</div>
+<span class="font-mono text-on-surface">Economia Líquida: R$ 420.000</span>
+</div>
+</div>
+<!-- Audio Memo Snippet -->
+<div class="bg-surface-container-high/90 p-space-sm rounded flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-3">
+<button aria-label="Reproduzir áudio" class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[20px]">play_arrow</span>
+</button>
+<div class="flex flex-col">
+<span class="font-headline-sm text-body-md text-on-surface font-medium">Briefing Semanal do Engenheiro-Chefe</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">3 min • Conclusão de concretagem e testes elétricos</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline hover:text-primary cursor-pointer text-[20px]">file_download</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SOCIAL PROOF & TESTIMONIAL BANNER          -->
+<!-- ========================================== -->
+<section class="w-full py-space-xl bg-surface relative">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col gap-space-lg">
+<!-- Quote Container -->
+<div class="relative bg-surface-container-low p-space-lg lg:p-space-xl rounded shadow-lg flex flex-col gap-space-md">
+<span class="material-symbols-outlined text-primary-container text-[48px] opacity-40 leading-none">format_quote</span>
+<blockquote class="font-headline-lg text-headline-lg text-on-surface font-normal leading-relaxed max-w-4xl">
+          “A WMA transformou a execução de nossa vila mais complexa no interior paulista em um processo tão previsível quanto um relógio suíço. O nível de controle milimétrico e transparência financeira redefiniu o padrão da nossa incorporação.”
+        </blockquote>
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md pt-space-sm">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover" data-alt="Close-up professional portrait of an elegant architect and property developer in a dark tailored blazer, set against a modern architectural studio background with subtle warm lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuClcP199k7Oq6unb7q4PQca87K5TXsSQMUK7ieOQvNlr2W2poOyvOU-L1armQam0og7dGOm7BahyfNPwegx_Wd-zra972cgcYjroKSdJCMCtHRylQnbLWhSGaF6vYXaI39RaDDK04lYnnDJ0vFQSv6ASc6UXb-GMsYvUOFp27U3YUChzcKM90hkYD8uzPbICl8UXEAFWd8vCyKsVLKfvPyClMcvDdhoA7M--hEFNAZ0dcHTHL1nQUiI"/>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">Arq. Rodrigo Brandão</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Sócio-Fundador da Studio Brandão Arquitetura • São Paulo</span>
+</div>
+</div>
+<!-- Verification Badges -->
+<div class="flex flex-wrap items-center gap-space-sm">
+<div class="px-3 py-1.5 bg-surface-container-lowest rounded flex items-center gap-2 shadow-sm">
+<span class="material-symbols-outlined text-primary text-[16px]">verified_user</span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase">Certificação Lean</span>
+</div>
+<div class="px-3 py-1.5 bg-surface-container-lowest rounded flex items-center gap-2 shadow-sm">
+<span class="material-symbols-outlined text-primary-container text-[16px]">deployed_code</span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase">BIM 5D Integration</span>
+</div>
+<div class="px-3 py-1.5 bg-surface-container-lowest rounded flex items-center gap-2 shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[16px]">lock</span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase">ISO 27001 Data Security</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- CTA CONVERSION STRIP                       -->
+<!-- ========================================== -->
+<section class="w-full py-space-xl bg-surface-container-lowest relative overflow-hidden" id="diagnostico">
+<!-- Radiant ambient spot -->
+<div class="absolute bottom-0 right-1/4 w-[500px] h-[300px] bg-primary-container/10 blur-[100px] rounded-full pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
+<div class="bg-gradient-to-br from-surface-container-low via-surface-container to-surface-container-lowest p-space-lg lg:p-space-xl rounded shadow-2xl flex flex-col lg:flex-row items-center justify-between gap-space-xl">
+<!-- Text CTA -->
+<div class="flex flex-col gap-space-sm max-w-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-mono">DIAGNÓSTICO TÉCNICO SEM CUSTO</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
+            Pronto para elevar o padrão da sua próxima obra?
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+            Converse com nossos engenheiros especialistas e receba uma análise de viabilidade construtiva e previsibilidade de cronograma para o seu projeto de alto padrão.
+          </p>
+</div>
+<!-- Fast Contact Consultation Box -->
+<div class="w-full lg:max-w-md bg-surface-container-lowest/90 backdrop-blur-xl p-space-lg rounded shadow-xl flex flex-col gap-space-md">
+<div class="flex flex-col gap-1">
+<span class="font-headline-sm text-headline-sm text-on-surface">Agende uma Reunião Técnica</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Resposta em até 24 horas úteis por um Engenheiro Líder.</span>
+</div>
+<form class="flex flex-col gap-space-sm" onsubmit="event.preventDefault(); const msg = document.getElementById('consult-success'); if(msg) msg.classList.remove('hidden');">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase" for="lead-name">Nome Completo</label>
+<input class="w-full px-3.5 py-2.5 rounded bg-surface-container-high text-on-surface font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary-container placeholder:text-outline" id="lead-name" placeholder="Ex: Lucas Guimarães" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase" for="lead-email">E-mail Profissional ou Pessoal</label>
+<input class="w-full px-3.5 py-2.5 rounded bg-surface-container-high text-on-surface font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary-container placeholder:text-outline" id="lead-email" placeholder="lucas@exemplo.com.br" required="" type="email"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase" for="lead-location">Localização da Obra / Metragem Estimada</label>
+<input class="w-full px-3.5 py-2.5 rounded bg-surface-container-high text-on-surface font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary-container placeholder:text-outline" id="lead-location" placeholder="Ex: Fazenda Boa Vista • 1.200 m²" type="text"/>
+</div>
+<button class="mt-2 w-full py-3.5 px-4 bg-primary-container text-on-primary font-headline-sm text-body-md font-semibold rounded shadow-[0_0_24px_rgba(0,229,255,0.4)] hover:shadow-[0_0_32px_rgba(0,229,255,0.65)] hover:bg-primary-fixed-dim transition-all flex items-center justify-center gap-2" type="submit">
+<span>Agendar Reunião Técnica com Especialista</span>
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+</button>
+</form>
+<div class="hidden p-3 bg-surface-container rounded text-primary font-body-sm text-body-sm text-center" id="consult-success">
+            Recebido com sucesso. Nossa diretoria técnica entrará em contato em breve.
+          </div>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-lowest pt-space-xl pb-space-lg shadow-[0_-1px_16px_rgba(0,0,0,0.5)]"><div class="max-w-7xl mx-auto px-6 lg:px-12"><div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 gap-space-lg pb-space-xl"><div class="lg:col-span-4 flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="WMA Engenharia Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WDEJkb0K0JapknLd0qHmnM0wV8WxDRAUG3aZ_kIWAksfQdtGNOjmmGbfA0IANSsZAMQ__XfgOxDyRICg-kLSsIbvAM3_DCEqmBaRQwi9tq4BLJDrBQPbDysfFoRhyNJSUdODxCPivIETzaHliDPNPXwWmXbzqD8FDEUvZU8ZtcI2Lyd7Nf4kAQGSeUNbEaScmQj27MCdQu-5ZPPbYHNi1oh9sRsMLZawieLdGVrTkveudDyBau9Pd1Dg"/><span class="font-headline-sm text-headline-sm uppercase text-on-surface">WMA Engenharia</span></div><p class="font-body-sm text-body-sm text-on-surface-variant pr-space-md">Plataforma de alta precisão técnica em Lean Construction impulsionada por modelos preditivos de Inteligência Artificial e engenharia de alto padrão.</p><div class="flex items-center gap-space-xs"><span class="font-label-sm text-label-sm text-primary uppercase">CREA-SP // RT-94021</span><span class="font-label-sm text-label-sm text-outline">•</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase">ISO 9001:2015</span></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-label-md text-label-md text-primary uppercase tracking-wider">Navegação Técnica</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="inovacao-ia" href="#">IA Preditiva &amp; Gêmeos Digitais</a></li><li><a class="hover:text-primary transition-colors" data-path="solucoes-construtivas" href="#">Engenharia Estrutural &amp; BIM</a></li><li><a class="hover:text-primary transition-colors" data-path="projetos" href="#">Portfólio de Obras High-End</a></li><li><a class="hover:text-primary transition-colors" data-path="sobre-nos" href="#">Governança e Metodologia Lean</a></li><li><a class="hover:text-primary transition-colors" data-path="portal-do-cliente" href="#">Painel do Investidor &amp; Cliente</a></li></ul></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-label-md text-label-md text-primary uppercase tracking-wider">Manifesto AI Lean</span><div class="bg-surface-container-low p-space-md rounded shadow-[0_0_16px_-4px_rgba(0,229,255,0.08)]"><p class="font-label-sm text-label-sm text-on-surface-variant">"Eliminação algorítmica de desvios construtivos, rastreabilidade milimétrica de materiais e antecipação de contingências de campo via machine learning."</p></div><div class="flex items-center gap-space-sm"><span class="font-label-sm text-label-sm text-on-surface-variant">Hub Operacional:</span><span class="font-body-sm text-body-sm text-on-surface">São Paulo • Curitiba • Alphaville</span></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-md text-label-md text-primary uppercase tracking-wider">Canais &amp; Contato</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" href="#">LinkedIn Engineering</a></li><li><a class="hover:text-primary transition-colors" href="#">Instagram @wmaeng</a></li><li><a class="hover:text-primary transition-colors" href="#">engenharia@wma.eng.br</a></li><li><a class="hover:text-primary transition-colors" href="#">+55 (11) 3040-8200</a></li></ul></div></div><div class="pt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm font-label-sm text-label-sm text-on-surface-variant"><p>© 2025 WMA Engenharia S.A. Todos os direitos reservados. Arquitetura de Sistemas &amp; Construção Conectada.</p><div class="flex items-center gap-space-md"><a class="hover:text-on-surface transition-colors" href="#">Termos de Compliance</a><a class="hover:text-on-surface transition-colors" href="#">Privacidade &amp; LGPD</a><a class="hover:text-on-surface transition-colors" href="#">Segurança Cibernética</a></div></div></div></footer></body></html>
